@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+  <html lang="en"> <!--manifest="https://salmandascript.github.io/ProfilerDocumentation">-->
+ <head>
+	 <title>Profiler Documentation</title>
+	 <meta charset="UTF-8"/>
+	
+	 <meta name="viewport"/>
+ 	
+ 	<meta name="keywords" content="Profiler, Profiler UI, Profiler Documentation"/>
+
+<meta name="Author" content="Salmanda"/>
+
+<meta name="revised" content="Profiler, 24/2/2024"/>
+ 
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    
+    <meta name="mobile-web-app-capable" content="yes"/>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    
+    <meta name="msapplication-starturl" content=""/>
+    
+     <meta name="robots"
+content="noindex,nofollow"/>
+    
+    <meta name="theme-color" content="teal"/>
+  
+  <link rel="icon" type="image" href="profiler.png"/>
+	 
+	 
+	 <style>
+	 body{
+	 color: white;
+	 font-size: 20pt;
+	 }
+	 
+	 span {
+	 color: orange;
+	 border-radius: 4pt;
+	 }
+	 
+	 .image1 {
+	 width: 100pt;
+	 height: 100pt;
+	 }
+	 
+	 	 .image2 {
+	 width: 200pt;
+	 height: 60pt;
+	 }
+	 
+	 img {
+	 loading: lazy;
+	 }
+	 
+	 a {
+	 color: gray;
+	 text-decoration: none;
+	 }
+	 
+ h2,h3 {
+	 text-align: center;
+	 color: orange;
+	 }
+	 
+	 input{
+	 	color: white;
+	 	font-size: 35pt;
+	 	font-weight: bold;
+	 	background: maroon;
+	 	border: groove orange 4pt;
+	 	border-radius: 8pt;
+	 	font-family: courier;
+	 }
+	 </style>
+	 
+	 
+ </head>
+	 <body style="background: linear-gradient(to right, maroon, teal);"
+	 >
+	 
+	 <noscript>
+	 You will need to enable Javascript to run this programme.
+	 </noscript>
+	 
+	 <h1 style="text-align: center; color:white" >Profiler Ul Component Documentation</h1>
+	 
+	 <img width="963" height="750"
+	 	  src="profiler.png" alt="code image"/>
+	 	  
+	 	  <strong>NOTE: </strong>You can download the Documentation in PDF format.<br><br>
+	 	  
+	 	  <a onclick ="notice();" href="ProfilerDocumentation.pdf"><span>Download PDF File📥</span></a></i><br><br>
+	  
+	  <strong>PREFACE: </strong>This Component is intended for beginners, it assumes no prior background in programming or mathematics. lt is appropriate for students desiring to learn web programming.<br><br>
+	 
+	 <strong>NOTE: </strong>These words below are used in this documentation in the following context.<br><br>
+	 
+	 	 <strong>COMPONENT: </strong><span>A tool that can support the work of anyone, to structure knowledge.</span><br>
+	 	 
+	 	 <strong>CHARACTER: </strong><span>An individual entity or subject whose information or knowledge is structured in the component.</span><br>
+	 	 
+	 	 <strong>TAG: </strong><span>A tag is the one framed with  <>.</span><br>
+	 	 
+	 	 <strong>HTML: </strong><span>Hypertext Markup Language (A Structuring Language).</span><br>
+	 	 
+	 	 <strong>CSS: </strong><span>Cascading Style Sheet (A Styling Language).</span><br>
+	 	 
+	 	 <strong>JAVASCRIPT : </strong><span>A programming Language.</span><br>
+	 	 	 
+	 	 	<strong>PROFILER: </strong><span>The name given to the Component.</span><br><br>
+	 
+	 <p>This component is easy to use, created mobile first you can edit and run it on your smart phone (you can as well run it on your computer),  alternatively with a little knowledge you can deploy your work on the Internet.</p>
+	 
+	 <p>You don't need any programming knowledge to use this component, by logically following instructions provided in this documentation,  you can almost  create profiles on any subject of your interest.</p>
+	 
+	 <p>The component is for purpose of learning web programming,  it is free you can change it, modify it or share it<span> (check terms of service below).</span></p>
+	 
+	 </p>The component can be used to build profiles on various subjects, from prominent people, celebrities in all fields to animals and plants, it can serve as a classification system of some sort.</p>
+	 
+	 <p>All you gonna do is just place your data (information) on the right place within the source code and then your programme will be working, This will only be the beginning, there are a lot of tasks you can accomplish once you understand the working of HTML, CSS and JAVASCRIPT.</p>
+	 
+	<h1>UNDERSTAND SIMULATION IN AN INTERACTIVE DESIGN ENVIRONMENT</h1>
+	 <img src="design.png" alt="Simulation Model" width="960" height="800"/>
+	 
+	 <h1>FEATURES OF THE COMPONENT</h1>
+	 
+	 <ul>
+<li>General tittle about your programme</li>
+	 <li>A tittle for every Character</li>
+	 <li>Two images for every Character </li>
+	 <li>A list of properties of the Character <span>(the profile itself) </span></li>
+	 <li>A button to toggle a small popover, to provide an additional tip </li>
+	 <li>A button to activate a modal that explains more about the Character</li>
+	 <li>A button to toggle a question  <span>(here you can pose a question to the user, about the Character, it is like a quiz the user can check his/her score at the last question)</span></li>
+	 <li>A button to play speech <span>(the speech is the text provided in the learn more modal, loaded from the java script file profiler.js)</span>
+	 <li><strong>NB </strong>The other versions of the component you can add a video, gif or a single large image.</li>
+	 </ul>
+	 
+	 
+	  <h1>HOW TO GET STARTED</h1>
+	 <p>This component was created to be easily edited with a smart phone, (you can as well run it on your computer) assuming you are using a smart phone download and extract the zip file containing the source code, if you don't have an editor installed then go ahead and install Quoda included with the source code files. That done click the profiler.html file, it should ask to be opened by several apps, choose Quoda to start editing the file, choose the browser to view the file.</p>
+	 
+	 <h1>USING QUODA</h1>
+	 <p>Open the app click the left drop down menu, select open then navigate to the folder with source code files, and select a file. </p>
+	 
+	 <p>To preview the file, click the right drop down menu and select preview.</p>
+	 
+<p>	<strong>NOTE: </strong>Only profiler.html can be previewed, this is because the browser renders contents under .html, files like profile.css and profiler.js and others are linked to the .html file for rendering.</p>
+
+<p> To change the appearance click the right drop down menu, select setting then select appearance, here you can change the theme, font style and font size. The theme used in the documentation is Monokai, choose this for easier reference. </p>
+
+	 <h1>USING THE COMPONENT TO CREATE A PROGRAMME</h1>
+	 <p>The only thing you will need to do is edit some specific areas within the file called profiler.html & profiler.js, these are source code files of the programme along with the other files  <span>(profiler.css, bootstrap.min.css, jquery.min.js, jquery-ui.min.js, these files you need not change).</span>
+	 </p>
+	 
+	 <p>While you can edit the profiler.css file as well which is for colors, l recommend you leave it at least for now, unless you are already familiar with CSS. You can explore it later when you're used to the component<span> (CSS files are as well embedded in the profiler.html file, but as I say you should leave them at least  for now).</span>
+	 
+	 <p>What you will actually be doing is placing your data, within some specific areas, within the profiler.html and profiler.js source code files.</p>
+	 
+	 <p>Mostly this data will be text and images (and videos or gifs if you're using the other component), this means you will need to have done a research on your character and have all the needed information.</p>
+	 
+	 
+	 <p>This profiler.js file is one of the most sensitive document, binding together the behavior of the the component, within this file we will edit (replace) the text to be spoken for our character contained in the javascript functions.</p>
+	 
+	 <p>Years before 2000, will have to be written in a sentence form, this because there is a pronunciation problem with the programme(at least we don't need to complicate the code), also the use of good punctuation marks might help the programme to read your text well.</p>
+	 
+	 <strong>Warning</strong>
+	 <span>Unnecessarily editing might affect the behaviour of the component.</span>
+	 
+	 <h3>ADDITIONAL NOTICE</h3>
+	 <p>The component has used third party modules namely;<span> bootstrap.min.css, bootstrap.min.js, Jquery.min.js and Jquery-ui.min.js</span> along the custome modules namely; <span>profiler.html, profiler.css and profiler.js</span>.</p>
+	 
+	 <p>Third party modules should not at all instance be edited, they are libraries on top of which the component is build.</p>
+	 
+	 <p>Again the purpose of this component is to help anyone who has the desire to understand web programming, <span>(using HTML, CSS and JAVASCRIPT)</span> of course these are not the only languages available. But for the beginner this approach is recommended as these languages are simple to learn and have a large community support  (though as you will find out that javascript has evolved to become a complex programming language that can accomplish most tasks. This is due to third party modules that have been developed to support javascript developers). Once the learner has grasped the working of HTML, CSS and JAVASCRIPT, he/she is encouraged to explore beyond as this is only an introduction. </p>
+	 
+	 <p>lf up to this point you still don't have any idea, lemme pitch some to you. Classify marine wildlife or plants or try football teams as in Club: Kaizer Chiefs, Contry: South Africa etc or mybe footballers as in Player Name: Samuel Eto'o, Counry: Cameroon etc, even artist as in Artist Name: Bob Marley, Country: Jamaica. By now you should be able to realise that indeed there are many ideas that can be implemented with the Component. While searching for information you may as well need to check www.wikipedia.org. </p>
+	 
+	 <h1>BELOW ARE AREAS YOU WILL NEED TO PLACE YOUR OWN DATA AND CREATE YOUR PROGRAMME </h1>
+	 <h2><span>PROFILER.HTML FILE</span></h2>
+	 
+	 <h3>TITTLE</h3>
+	 <img width="963" height="100"
+	  src="tittle0.png" alt="code image"/>
+	 <p>Here replace <span>Profiler UI Component </span> with your own page title, it will appear at the top of the browser or on the shortcut if the user saves the page (or if you save the page within your device). </p><hr>
+	 
+	 <img width="963" height="150"
+	  src="tittle.png" alt="code image"/>
+	 <p>Here replace <span>(GENERAL TITTLE ) ABOUT YOUR PROGRAMME </span> with the main tittle of your programme, (in fact the information contained in this part, is to introduce what your programme is about).</p><hr>
+	 
+	  <img width="963" height="150" src="tittle2.png" alt="code image"/>
+	  <p>Here replace <span>(TITTLE) FIRST CHARACTER </span>with the tittle of your first character. </p><hr>
+	 
+	 <h3>IMAGES</h3>
+	 	 <img width="963" height="500"
+	 	  src="images.png" alt="code image"/>
+<p>	Here <span>"profiler.png"</span> and <span>"profiler1.png"</span> are my image's names replace this with your own, image names, the alt. attribute carries the text <span>"Profiler Logo"</span> and <span>"SM Logo"</span> this text appears when the image can't be displayed from whatever reason, replace this as well with your own.</p>
+
+<strong>NOTE: </strong>At this point to make things easier, you will need to just put your images, gifs or videos in the same folder as the source code files.<hr>
+
+	 <h3>POPOVER</h3>
+	 	 <img width="963" height="700" src="popover3.png" alt="code image"/>
+	 	 <p>Here <span>"SM Computer Engineering Technology"</span> is the title of the popover replace this with your own, <span>"Is a Computer Company offering hardware and software  Service "</span> is the content of the popover replace this with your own and then <span>SM Technology</span> is the text that appears on the button that toggles the popover, replace this with your own.<br>
+	 
+	 <strong>NOTE: </strong>The popover code snippet falls somewhere between the List (Profile), but let not this confuse you, as you will soon see. </p><hr>
+	 	 
+	 <h3>LIST ITEM (the profile itself)</h3>
+	 	 <img width="963" height="1100" src="profile.png" alt="code image"/>
+	 	 <p>Here is where you put your profile using key and value pair, as in <span>Name: Profiler, Release Date: 26 March 2024, Author: Salmanda, Status: Active </span> etc. Replace this with your own, U might as well change it according to your preference or subject. Don't let the tags confuse you, just try and follow the logic, find the text and replace it with your own. You will learn about tags in HTML tutorials. </p><hr>
+
+	 <h3>LEARN MORE MODAL</h3>
+	 	 <img width="963" height="1000" src="text.png" alt="code image"/>
+	 	 <p>Here replace the tittle with your own tittle, replace the text in the body with your own text, (this is the text that appears when a user press Learn more button, this same text appears in the javascript function that plays speech). To include break points between your paragraphs you can use the<img width="100" height="30"
+	  src="br.png" alt="code image"/> tag, at the end of the paragraph. (This ain't in code, but you might wish to use it).</p><hr>
+	 	 
+	 <h3>QUESTION</h3>
+	 	 <img width="963" height="900"
+	 	  src="question.png" alt="code image"/>
+<p>Here <span>Place your question here</span> should be replaced with your own actual question , <span>Correct answer here</span> should be replaced with your own correct answer, while <span>Wrong answer</span> should be replaced with your own wrong answer. </p><hr>
+	 
+	 <h3>TEXT ON THE BUTTON</h3>
+	 	 <img width="963" height="900"
+	 	  src="button.png" alt="code image"/>
+<p>Here <span>Learn more, Answer Question and Play audio</span> are text on the button, if necessary replace this with your own alternative text. </p><hr>
+
+<h3>META TAGS</h3>
+ <img width="963" height="300"
+	 	  src="meta.png" alt="code image"/>
+	 <p>Here <span>"teal" </span>is the theme color you might leave it, unless you're changing whole colors, (which is not explained in this documentation) then you can change it to match your colors. </p>
+	 
+	 <p><span>"profiler.png"</span> is the image that is the icon of the page, if the user saves the page the image creates an icon on their screen. (this is same if you save the page within your device).</p><hr>
+	 	  
+	 	   <img width="963" height="350"
+	 	  src="meta2.png" alt="code image"/>
+	 	  <p>Here  <span>Put various keywords here </span>should be replaced with your own keywords separated by commas, (in case you will need to host your work online, these keywords helps search engines to lank your site.</p>
+	 	  
+	 	  <p>Here <span>"Salmanda" </span>is the author, while creating your programme replace it with your name.</p>
+	 	  
+	 	  <p>And then last but not least  <span>"Profiler, 2/2/2024" </span>is the day the source code was revised  (or at least the day the Screenshot was taken) replace this date with your own. </p>
+	 	  
+	 	  <strong>NOTE: </strong>Make sure to enclose resources within "" with the same double quotes. (In programming any violation of syntax rules, leads to a programme malfunctioning).<br><br><hr>
+	 
+	 <h3>VIDEO</h3>
+	 <p>Using the video component you can embed a single large image, a gif or a video, use the above code to embed an image or gif, use below code to embed a video. </p>
+	 
+	  <img width="963" height="120"
+	 	  src="video.png" alt="code image"/>
+<p>Here<span>"Salmanda4.mp4"</span>is the name of my video, replace this with your own. <span>Poster</span> has the attribute  <span>"Screenshot2l.jpg"</span> this is the  image that appears before the video gets played, as well replace this with your own image.</span><hr>
+
+<h3>A SUBTITLE</h3>
+<img width="963" height="150"
+	 	  src="more.png" alt="code image"/>
+	 	  <p>Here replace <span>"Additional information"</span> with any information that might be necessary. The double quotes here are only part of the text.</p><hr>
+	 
+	 <h2><span>PROFILER.JS FILE </span></h2>
+	 <p>The profiler.js file contains many functions among them are functions that embodies the text for speech, this is the same text in the .html file that appears on the text modal, or you can use a different text, just do as you desire. So each of our character has it's own speech function. Replace this text within the body of each function.</p>
+	 <img width="963" height="1050"
+	 	  src="javascript.png" alt="code image"/>
+	 
+	 <h1>TECHNOLOGIES USED TO CREATE THIS USER INTERFACE COMPONENT</h1>
+	  <img class="image1" src="html.png" alt="HTML"/>HTML <br><br>
+	  <img class="image1" src="css.png" alt="CSS "/>CSS <br><br>
+	  <img class="image1" src="js.png" alt="JAVASCRIPT"/>JAVASCRIPT  <br><br>
+	  <img class="image1" src="bootstrap.png" alt="BOOTSTRAP"/>BOOTSTRAP <br><br>
+	  <img class="image2" src="jquery.png" alt="JQUERY"/>JQUERY <br><br>
+	  <img class="image2" src="jquery ui.png" alt="JQUERY-UI "/>JQUERY-UI <br><br>
+	  
+	  <p>The source code has been offered free, to support me link up using the information provided in contact <a href="https//salmandascript.github.io/Africa online">here</a>, a'm as well available to offer help and support,  The documentation has neither explained how to deploy your work online, nor how to link up your pages if you have different folders, even how to work with colors using CSS. As a matter of fact there is so much the documentation hasn't explained. This is just a beginning your will need to understand HTML, CSS and JAVASCRIPT.</p>
+	 
+	 <h1>TERMS OF SERVICE  </h1>
+	 <p>THE COMPONENT IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY ,FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE COMPONENT OR THE USE OR OTHER DEALINGS IN THE COMPONENT.<br><br>
+
+Permission to copy, use, modify, and distribute profiler User Interface component  Files is granted. These files are provided "as is", and to the fullest extended allowed under applicable law, Profiler UI Component Files are provided without express or implied warranty, and with no claim as to their suitability for any purpose.</p>
+
+<p>Written and compiled by Clement Juma M'manga a.k.a Salmanda.</p><hr>
+
+<strong><a href="#">&laquo BACK TO THE TOP</a></strong>
+	 
+<!--<div align="center"><form>
+        <input type="button" value="Create Document" onclick="window.print();"/>
+        </form></div>-->
+</script>
+	 </body>
+ </html>
